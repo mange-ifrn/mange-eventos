@@ -1,0 +1,32 @@
+site_name: Mange Eventos
+copyright: Jurandy Soares
+site_url: https://mange.ifrn.edu.br/eventos/
+site_author: Jurandy Soares
+site_dir: /var/www/html/eventos/
+site_description: >-
+  Divulgação e pré-inscrição de eventos na Mange@IFRN
+
+# Repository
+repo_url: https://github.com/mange-ifrn/mange-eventos
+edit_uri: "edit/main/docs"
+
+# Copyright
+copyright: Copyright &copy; 2021 Jurandy Soares
+
+# Configuration
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: 'green'
+
+extra:
+  disqus: mange-ifrn
+
+markdown_extensions:
+  - meta
+  - admonition
+
+nav:
+  - Inicial: index.md
+  - NetBox: 2021-02-19.md
